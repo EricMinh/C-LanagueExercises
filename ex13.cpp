@@ -1,4 +1,5 @@
 //Build this source code and then run it with a text file as input in a command prompt in this format: program.exe < texefile.txt
+//This code prints horizontal/vertical histograms for words of varying lengths.
 
 #include <stdio.h>
 #include <ctype.h>
