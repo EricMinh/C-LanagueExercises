@@ -1,7 +1,7 @@
 //Build this source code and then run it with a text file as input in a command prompt in this format: program.exe < textfile.txt
 
-//This code contains the revisions so that it will correctly print the
-//length of arbitrarily long input lines. and as much as possible of the text.
+//This code contains the revisions to the given longest line program so that it will correctly print the
+//length of arbitrarily long input lines and as much as possible of the text.
 
 #include <stdio.h>
 #define MAXLINE 1000			/* maximum input line length */
@@ -9,7 +9,7 @@
 int getline(char line[], int maxline);
 void copy(char to[], char from[]);
 
-/* print the longest input line */
+/* print the longest input line */,
 int main(int argc, const char * argv[])
 {
 	int len;					/* current line length */
