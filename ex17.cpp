@@ -1,3 +1,6 @@
+//Build this source code and then run it with a text file as input in a command prompt in this format: program.exe < texefile.txt
+//This code prints out lines that are greater than 80 in length
+
 #include <stdio.h>
 #define MAXLINE	1000			/* maximum input line length */
 #define GOODSIZE 80
