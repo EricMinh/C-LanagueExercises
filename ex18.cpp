@@ -1,3 +1,6 @@
+//Make sure to test this code with text file that has a \n at the end. In a .txt file, that would be pressing enter/return.
+//Otherwise, it will throw an unhandled exception
+
 #include <stdio.h>
 #define MAXLINE	1000			/* maximum input line length */
 
