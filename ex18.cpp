@@ -1,6 +1,9 @@
 //Make sure to test this code with text file that has a \n at the end. In a .txt file, that would be pressing enter/return.
 //Otherwise, it will throw an unhandled exception
 
+//Build this source code and then run it with a text file as input in a command prompt in this format: program.exe < texefile.txt
+//This code removes trailing blanks and tabs from the end of the text file input before printing
+
 #include <stdio.h>
 #define MAXLINE	1000			/* maximum input line length */
 
