@@ -1,4 +1,4 @@
-//Build this source code and then run it with a text file as input in a command prompt in this format: program.exe < texefile.txt
+//Build this source code and then run it with a text file as input in a command prompt in this format: program.exe < textfile.txt
 //This code reverses the line input before printing it
 
 include <stdio.h>
